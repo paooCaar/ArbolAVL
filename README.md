@@ -1,8 +1,8 @@
-# ArbolAVL
+# 🌳 ArbolAVL
 
 Este repositorio contiene una implementación genérica de un **árbol AVL** en Java. El árbol AVL es un tipo de árbol binario de búsqueda auto-balanceado, lo que significa que mantiene su equilibrio automáticamente tras inserciones o eliminaciones de nodos para garantizar un rendimiento óptimo.
 
-## 📌 Características
+## 📝 Características
 
 - Implementación genérica: permite trabajar con cualquier tipo de dato que implemente `Comparable<T>`.
 - Inserción con rebalanceo automático.
@@ -16,7 +16,7 @@ Este repositorio contiene una implementación genérica de un **árbol AVL** en 
 - `NodoAVL.java`: Clase que representa un nodo dentro del árbol.
 - `Pruebas_ArbolAVL.java`: Archivo de pruebas para validar el funcionamiento del árbol AVL (opcionalmente puedes incluir algunos ejemplos de uso aquí).
 
-## 🔧 Uso básico
+## 💻 Uso básico
 
 ```java
 ArbolAVL<Integer> arbol = new ArbolAVL<>();
@@ -45,7 +45,7 @@ arbol.imprimirPorNivel(); // Imprime el árbol por niveles mostrando el factor d
 ## 📜 Requisitos
 
 - JDK 8 o superior.
-- Un entorno de desarrollo como IntelliJ, Eclipse o VSCode.
+- Un entorno de desarrollo como NetBeans, IntelliJ, Eclipse o VSCode.
 
 ## 🚀 Objetivo
 
@@ -53,4 +53,3 @@ Este proyecto fue creado con fines educativos para ilustrar el funcionamiento de
 
 ---
 
-¡Siéntete libre de usarlo, modificarlo o extenderlo para tus propios fines! 😄
